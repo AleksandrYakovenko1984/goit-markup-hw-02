@@ -1,2 +1,25 @@
 body {
+  font-family: 'Roboto', sans-serif, 'Raleway', sans-serif;
+  color: #000;
+}
+.logo {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+  font-family: Raleway;
+  font-weight: bold;
+  line-height: 1, 17;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.logo-color {
+  color: #2196f3;
+}
+a {
+  text-decoration: none;
+}
+.studio-blue {
+  color: #2196f3;
 }
