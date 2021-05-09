@@ -1,18 +1,25 @@
 body {
-  font-family: 'Roboto', sans-serif, 'Raleway', sans-serif;
-  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  width: 1600px;
 }
+/* logo */
+
 .logo {
   position: absolute;
   width: 145px;
   height: 31px;
-  left: 215px;
+  padding-left: 215px;
   top: 24px;
   font-family: Raleway;
+  font-style: normal;
   font-weight: bold;
-  line-height: 1, 17;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
   letter-spacing: 0.03em;
-  text-decoration: none;
+  color: black;
 }
 .logo-color {
   color: #2196f3;
@@ -20,6 +27,200 @@ body {
 a {
   text-decoration: none;
 }
-.studio-blue {
+.nav-list-all {
+  display: flex;
+  flex-direction: row;
+}
+.nav-list-one {
+  position: absolute;
+  width: 49px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+  color: #000;
+}
+.nav-list-two {
+  position: absolute;
+  width: 77px;
+  height: 16px;
+  left: 552px;
+  top: 32px;
+  color: #000;
+}
+.nav-list-three {
+  position: absolute;
+  width: 68px;
+  height: 16px;
+  left: 679px;
+  top: 32px;
+  color: #000;
+}
+.nav-list-one:hover {
   color: #2196f3;
+}
+.nav-list-one:focus {
+}
+.nav-list-two:hover {
+  color: #2196f3;
+}
+.nav-list-two:focus {
+}
+.nav-list-three:hover {
+  color: #2196f3;
+}
+.nav-list-three:focus {
+}
+.contacts {
+  display: flex;
+  flex-direction: row;
+}
+.mail {
+  position: absolute;
+  width: 135px;
+  height: 16px;
+  left: 1078px;
+  top: 32px;
+  color: #000;
+}
+.mail:hover {
+  color: #2196f3;
+}
+.mail:focus {
+}
+.phone {
+  position: absolute;
+  width: 122px;
+  height: 16px;
+  left: 1263px;
+  top: 32px;
+  color: #000;
+}
+.phone:hover {
+  color: #2196f3;
+}
+.phone:focus {
+}
+/* ==========hero========== */
+.hero {
+}
+.hero-name {
+  width: 696px;
+  height: 120px;
+  padding-left: 452px;
+  top: 280px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.button-hero {
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+}
+.about-us {
+  display: flex;
+  flex-direction: row;
+}
+.our-power-side {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.text {
+  width: 270px;
+  height: 75px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.what-we-do {
+  display: flex;
+  flex-direction: row;
+}
+.we-are-do {
+  width: 376px;
+  height: 42px;
+  left: 612px;
+  top: 969px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.img-one {
+  left: 215px;
+  top: 1061px;
+  padding-right: 30px;
+}
+.img-two {
+  left: 615px;
+  top: 1061px;
+  padding-right: 30px;
+}
+.img-three {
+  left: 1015px;
+  top: 1061px;
+}
+.our-team-name {
+  width: 264px;
+  height: 42px;
+  left: 668px;
+  top: 1543px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.our-team {
+  display: flex;
+  flex-direction: row;
+}
+.footer {
+  background-color: #2f303a;
+}
+.logo-footer {
+  width: 145px;
+  height: 31px;
+
+  top: 2157px;
+  padding-left: 215px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1, 19;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+.address {
+  padding-left: 215px;
 }
