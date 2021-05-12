@@ -1,15 +1,25 @@
 body {
   font-family: 'Roboto', sans-serif;
-  font-family: 'Raleway', sans-serif;
+  background: #ffffff;
   width: 1600px;
 }
-/* logo */
-
+/* header */
+.header {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #212121;
+}
+ul {
+  list-style: none;
+  /* logo */
+}
 .logo {
   position: absolute;
   width: 145px;
   height: 31px;
-  padding-left: 215px;
+  margin-left: 215px;
   top: 24px;
   font-family: Raleway;
   font-style: normal;
@@ -27,6 +37,7 @@ body {
 a {
   text-decoration: none;
 }
+/* navigation */
 .nav-list-all {
   display: flex;
   flex-direction: row;
@@ -70,17 +81,19 @@ a {
 }
 .nav-list-three:focus {
 }
+/* contacts section */
 .contacts {
   display: flex;
   flex-direction: row;
 }
 .mail {
   position: absolute;
+
   width: 135px;
   height: 16px;
   left: 1078px;
   top: 32px;
-  color: #000;
+  color: #757575;
 }
 .mail:hover {
   color: #2196f3;
@@ -93,43 +106,56 @@ a {
   height: 16px;
   left: 1263px;
   top: 32px;
-  color: #000;
+  color: #757575;
 }
 .phone:hover {
   color: #2196f3;
 }
 .phone:focus {
 }
-/* ==========hero========== */
+/* ==========section hero========== */
 .hero {
+  background-color: #2f303a;
+  margin-bottom: 94px;
 }
 .hero-name {
   width: 696px;
   height: 120px;
-  padding-left: 452px;
-  top: 280px;
-
+  padding: 200px 452px 15px 452px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
   /* or 136% */
-
+  color: #fff;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
 .button-hero {
+  margin: 15px 700px 200px 700px;
   width: 200px;
   height: 50px;
-  left: 700px;
-  top: 430px;
+  background-color: #2196f3;
+  color: #fff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+/* наши сильные стороны */
+.our-power-sides {
+  margin-bottom: 94px;
 }
 .about-us {
   display: flex;
   flex-direction: row;
+  padding-left: 215px;
+  padding-right: 215px;
 }
 .our-power-side {
   font-family: Roboto;
@@ -143,67 +169,92 @@ a {
 .text {
   width: 270px;
   height: 75px;
-
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-
   letter-spacing: 0.03em;
   color: #757575;
 }
-.what-we-do {
-  display: flex;
-  flex-direction: row;
-}
+/* чем мы занимаемся */
+
 .we-are-do {
   width: 376px;
   height: 42px;
-  left: 612px;
-  top: 969px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
+  line-height: 1.16;
+  margin: 0px 612px 50px 612px;
   color: #212121;
+}
+.what-we-do {
+  display: flex;
+  flex-direction: row;
+  padding-left: 215px;
+  margin-bottom: 94;
 }
 .img-one {
   left: 215px;
   top: 1061px;
   padding-right: 30px;
+  margin-bottom: 94;
 }
 .img-two {
   left: 615px;
   top: 1061px;
   padding-right: 30px;
+  margin-bottom: 94;
 }
 .img-three {
   left: 1015px;
   top: 1061px;
+  margin-bottom: 94;
 }
+/* наша команда */
 .our-team-name {
-  width: 264px;
+  width: 376px;
   height: 42px;
-  left: 668px;
-  top: 1543px;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-
+  line-height: 1.16;
+  margin: 94px 612px 50px 612px;
   color: #212121;
 }
 .our-team {
   display: flex;
   flex-direction: row;
+  padding-left: 215px;
 }
+.agent-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.agent-prof {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.card-agent {
+  margin-right: 30px;
+}
+
+/* footer */
 .footer {
   background-color: #2f303a;
 }
@@ -223,4 +274,50 @@ a {
 }
 .address {
   padding-left: 215px;
+}
+.address-fact {
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 2208px;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1, 71;
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+a[href='mailto:info@example.com'] {
+  color: rgba(255, 255, 255, 0.6);
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 2238px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+}
+a[href='tel:+380991111111'] {
+  color: rgba(255, 255, 255, 0.6);
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 2238px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
 }
