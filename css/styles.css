@@ -10,6 +10,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   color: #212121;
+  margin-bottom: 94px;
 }
 ul {
   list-style: none;
@@ -289,7 +290,7 @@ a {
 
   color: #ffffff;
 }
-a[href='mailto:info@example.com'] {
+.mail-footer {
   color: rgba(255, 255, 255, 0.6);
   width: 231px;
   height: 21px;
@@ -305,7 +306,7 @@ a[href='mailto:info@example.com'] {
 
   letter-spacing: 0.03em;
 }
-a[href='tel:+380991111111'] {
+.tel-footer {
   color: rgba(255, 255, 255, 0.6);
   width: 231px;
   height: 21px;
@@ -319,5 +320,32 @@ a[href='tel:+380991111111'] {
   line-height: 24px;
   /* or 171% */
 
+  letter-spacing: 0.03em;
+}
+/* ==================portfolio=================== */
+.section-conteiner {
+  font-family: 'Roboto', sans-serif;
+  background: #ffffff;
+  width: 1600px;
+}
+.all-section-port {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.buton-list {
+  display: flex;
+  flex-direction: row;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  justify-content: center;
+  text-align: center;
   letter-spacing: 0.03em;
 }
