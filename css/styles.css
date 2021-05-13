@@ -11,6 +11,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   color: #212121;
+
   margin-bottom: 94px;
 }
 ul {
@@ -21,7 +22,7 @@ ul {
   position: absolute;
   width: 145px;
   height: 31px;
-  margin-left: 215px;
+  padding-left: 215px;
   top: 24px;
   font-family: Raleway;
   font-style: normal;
@@ -333,6 +334,7 @@ a {
   font-family: 'Roboto', sans-serif;
   background: #ffffff;
   width: 1600px;
+  color: #212121;
 }
 
 .buton-list {
@@ -342,7 +344,7 @@ a {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
   /* identical to box height, or 162% */
 
   justify-content: center;
@@ -391,6 +393,9 @@ a {
   letter-spacing: 0.06em;
 
   color: #212121;
+}
+.content-tipe {
+  color: #757575;
 }
 .all-section-port {
   display: flex;
