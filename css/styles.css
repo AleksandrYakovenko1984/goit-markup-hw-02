@@ -19,23 +19,21 @@ img {
 }
 .container {
   width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 .header-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 body {
-  font-family: 'Roboto', sans-serif, 'Raleway';
+  font-family: Roboto, sans-serif;
   background: #ffffff;
   color: #212121;
-  width: 1600px;
 }
 /* header */
 .header {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -48,11 +46,7 @@ ul {
   /* logo */
 }
 .logo {
-  position: absolute;
-  width: 145px;
-  height: 31px;
   margin-right: 93px;
-  top: 24px;
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -78,7 +72,16 @@ a {
   display: flex;
   align-items: center;
 }
-.nav-list-one {
+.menu li {
+  margin-right: 50px;
+}
+.menu a {
+  color: #000;
+}
+.menu a:hover {
+  color: #2196f3;
+}
+/* .nav-list-one {
   margin-right: 50px;
   position: absolute;
   width: 49px;
@@ -103,35 +106,16 @@ a {
   left: 679px;
   top: 32px;
   color: #000;
-}
-.nav-list-one:hover {
-  color: #2196f3;
-}
-.nav-list-one:active {
-}
-.nav-list-one:focus {
-}
-.nav-list-two:hover {
-  color: #2196f3;
-}
-.nav-list-two:focus {
-}
-.nav-list-three:hover {
-  color: #2196f3;
-}
-.nav-list-three:focus {
-}
+} */
+
 /* contacts section */
 .contacts {
+  display: flex;
+  align-items: center;
 }
 .mail {
-  position: absolute;
   margin-left: auto;
   margin-right: 50px;
-  width: 135px;
-  height: 16px;
-  left: 1078px;
-  top: 32px;
   color: #757575;
 }
 .mail:hover {
@@ -142,11 +126,6 @@ a {
 .mail:active {
 }
 .phone {
-  position: absolute;
-  width: 122px;
-  height: 16px;
-  left: 1263px;
-  top: 32px;
   color: #757575;
 }
 .phone:hover {
@@ -158,8 +137,9 @@ a {
 .hero {
   background-color: #2f303a;
   margin-bottom: 94px;
-  width: 1600px;
   height: 600px;
+  display: flex;
+  flex-direction: column;
 }
 .hero-name {
   width: 696px;
@@ -181,20 +161,18 @@ a {
 }
 
 .button-hero {
-  position: absolute;
   width: 200px;
   height: 50px;
   left: 700px;
   top: 430px;
   background-color: #2196f3;
   color: #fff;
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
   cursor: pointer;
+  align-items: center;
 }
 /* наши сильные стороны */
 .our-power-sides {
@@ -203,7 +181,6 @@ a {
 .about-us {
   display: flex;
   flex-direction: row;
-  padding-left: 215px;
 }
 .about-us:not(:last-child) {
   margin-right: 30px;
@@ -244,8 +221,7 @@ a {
 .what-we-do {
   display: flex;
   flex-direction: row;
-  margin-left: 215px;
-  margin-bottom: 94;
+  margin-bottom: 94px;
 }
 .img-one {
   margin-right: 30px;
@@ -257,20 +233,18 @@ a {
 }
 /* наша команда */
 .our-team-name {
-  width: 376px;
-  height: 42px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
-  margin: 94px 612px 50px 612px;
+  margin: 94px 0 50px 0;
+  text-align: center;
   color: #212121;
 }
 .our-team {
   display: flex;
   flex-direction: row;
-  padding-left: 215px;
   margin-bottom: 94px;
 }
 .agent-name {
@@ -303,37 +277,31 @@ a {
 
 /* footer */
 .footer {
-  width: 1600px;
+  padding: 60px 0;
   height: 252px;
   background-color: #2f303a;
 }
 .logo-footer {
   width: 145px;
   height: 31px;
-  margin-top: 60px;
-  margin-left: 215px;
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 1, 19;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #fff;
 }
 .address {
-  margin-left: 215px;
   margin-top: 20px;
-  margin-bottom: 60px;
 }
 .address-fact {
   width: 231px;
   height: 21px;
-  left: 215px;
-  top: 2208px;
   font-family: Roboto;
   font-style: normal;
   font-size: 14px;
-  line-height: 1, 71;
+  line-height: 1.71;
   margin-bottom: 9px;
   letter-spacing: 0.03em;
 
@@ -343,8 +311,6 @@ a {
   color: rgba(255, 255, 255, 0.6);
   width: 231px;
   height: 21px;
-  left: 215px;
-  top: 2238px;
   margin-bottom: 9px;
   font-family: Roboto;
   font-style: normal;
@@ -359,8 +325,6 @@ a {
   color: rgba(255, 255, 255, 0.6);
   width: 231px;
   height: 21px;
-  left: 215px;
-  top: 2238px;
 
   font-family: Roboto;
   font-style: normal;
