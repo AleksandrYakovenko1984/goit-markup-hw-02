@@ -23,6 +23,10 @@ img {
   padding-right: 15px;
   margin: 0 auto;
 }
+.header-container {
+  display: flex;
+  align-items: center;
+}
 body {
   font-family: 'Roboto', sans-serif, 'Raleway';
   background: #ffffff;
@@ -35,9 +39,9 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: #212121;
-
-  margin-bottom: 94px;
 }
 ul {
   list-style: none;
@@ -47,7 +51,7 @@ ul {
   position: absolute;
   width: 145px;
   height: 31px;
-  padding-left: 215px;
+  margin-right: 93px;
   top: 24px;
   font-family: Raleway;
   font-style: normal;
@@ -68,9 +72,14 @@ a {
 /* navigation */
 .nav-list-all {
   display: flex;
-  flex-direction: row;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  align-items: center;
 }
 .nav-list-one {
+  margin-right: 50px;
   position: absolute;
   width: 49px;
   height: 16px;
@@ -79,6 +88,7 @@ a {
   color: #000;
 }
 .nav-list-two {
+  margin-right: 50px;
   position: absolute;
   width: 77px;
   height: 16px;
@@ -113,12 +123,11 @@ a {
 }
 /* contacts section */
 .contacts {
-  display: flex;
-  flex-direction: row;
 }
 .mail {
   position: absolute;
-
+  margin-left: auto;
+  margin-right: 50px;
   width: 135px;
   height: 16px;
   left: 1078px;
@@ -149,16 +158,21 @@ a {
 .hero {
   background-color: #2f303a;
   margin-bottom: 94px;
+  width: 1600px;
+  height: 600px;
 }
 .hero-name {
   width: 696px;
   height: 120px;
-  padding: 200px 452px 15px 452px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 200px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   /* or 136% */
   color: #fff;
   text-align: center;
@@ -167,9 +181,11 @@ a {
 }
 
 .button-hero {
-  margin: 15px 700px 200px 700px;
+  position: absolute;
   width: 200px;
   height: 50px;
+  left: 700px;
+  top: 430px;
   background-color: #2196f3;
   color: #fff;
   font-family: Roboto;
@@ -188,7 +204,9 @@ a {
   display: flex;
   flex-direction: row;
   padding-left: 215px;
-  padding-right: 215px;
+}
+.about-us:not(:last-child) {
+  margin-right: 30px;
 }
 .our-power-side {
   font-family: Roboto;
@@ -198,6 +216,7 @@ a {
   line-height: 1, 14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 .text {
   width: 270px;
@@ -225,25 +244,16 @@ a {
 .what-we-do {
   display: flex;
   flex-direction: row;
-  padding-left: 215px;
+  margin-left: 215px;
   margin-bottom: 94;
 }
 .img-one {
-  left: 215px;
-  top: 1061px;
-  padding-right: 30px;
-  margin-bottom: 94;
+  margin-right: 30px;
 }
 .img-two {
-  left: 615px;
-  top: 1061px;
-  padding-right: 30px;
-  margin-bottom: 94;
+  margin-right: 30px;
 }
 .img-three {
-  left: 1015px;
-  top: 1061px;
-  margin-bottom: 94;
 }
 /* наша команда */
 .our-team-name {
@@ -261,6 +271,7 @@ a {
   display: flex;
   flex-direction: row;
   padding-left: 215px;
+  margin-bottom: 94px;
 }
 .agent-name {
   font-family: Roboto;
@@ -271,6 +282,8 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .agent-prof {
   font-family: Roboto;
@@ -280,6 +293,7 @@ a {
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 30px;
 
   color: #757575;
 }
@@ -289,14 +303,15 @@ a {
 
 /* footer */
 .footer {
+  width: 1600px;
+  height: 252px;
   background-color: #2f303a;
 }
 .logo-footer {
   width: 145px;
   height: 31px;
-  margin-bottom: 20px;
-  top: 2157px;
-  padding-left: 215px;
+  margin-top: 60px;
+  margin-left: 215px;
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -306,7 +321,9 @@ a {
   color: #fff;
 }
 .address {
-  padding-left: 215px;
+  margin-left: 215px;
+  margin-top: 20px;
+  margin-bottom: 60px;
 }
 .address-fact {
   width: 231px;
