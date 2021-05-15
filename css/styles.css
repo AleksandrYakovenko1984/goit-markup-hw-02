@@ -324,7 +324,7 @@ a {
 .section-conteiner {
   font-family: 'Roboto', sans-serif;
   background: #ffffff;
-  width: 1600px;
+
   color: #212121;
 }
 
@@ -347,11 +347,7 @@ a {
   margin-right: 30px;
   width: 130px;
   height: 38px;
-  left: 976px;
-  top: 174px;
   border: none;
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -368,34 +364,32 @@ a {
 }
 .button-portf:focus {
 }
-.name-img {
-  width: 322px;
-  height: 36px;
-  left: 639px;
-  top: 576px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 36px;
-  /* identical to box height, or 200% */
-
-  letter-spacing: 0.06em;
-
-  color: #212121;
-}
-.content-tipe {
-  color: #757575;
-}
 .all-section-port {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
   flex-wrap: wrap;
-  margin-left: 185px;
+  margin-bottom: 94px;
 }
+.name-img {
+  width: 322px;
+  height: 36px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+  color: #212121;
+  margin-top: 20px;
+  margin-left: 24px;
+}
+.content-tipe {
+  color: #757575;
+  margin-top: 4px;
+  margin-left: 24px;
+}
+
 .img-card-block {
   margin-right: 30px;
 }
