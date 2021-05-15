@@ -139,17 +139,14 @@ a {
   margin-bottom: 94px;
   height: 600px;
   display: flex;
-  flex-direction: column;
 }
 .hero-name {
   width: 696px;
   height: 120px;
-  margin-bottom: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 200px;
-  font-family: Roboto;
-  font-style: normal;
+  margin-left: 252px;
+  margin-right: 252px;
+  margin-top: 200px;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -163,8 +160,9 @@ a {
 .button-hero {
   width: 200px;
   height: 50px;
-  left: 700px;
-  top: 430px;
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-top: 30px;
   background-color: #2196f3;
   color: #fff;
   font-weight: bold;
@@ -172,7 +170,6 @@ a {
   line-height: 1.87;
   letter-spacing: 0.06em;
   cursor: pointer;
-  align-items: center;
 }
 /* наши сильные стороны */
 .our-power-sides {
@@ -186,22 +183,17 @@ a {
   margin-right: 30px;
 }
 .our-power-side {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
 .text {
   width: 270px;
-  height: 75px;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -210,12 +202,13 @@ a {
 .we-are-do {
   width: 376px;
   height: 42px;
-  font-family: Roboto;
-  font-style: normal;
+
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
-  margin: 0px 612px 50px 612px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
   color: #212121;
 }
 .what-we-do {
@@ -233,8 +226,6 @@ a {
 }
 /* наша команда */
 .our-team-name {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -248,11 +239,9 @@ a {
   margin-bottom: 94px;
 }
 .agent-name {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -260,15 +249,11 @@ a {
   margin-bottom: 10px;
 }
 .agent-prof {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 30px;
-
   color: #757575;
 }
 .card-agent {
